@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style for the table and boxes */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+  
+    td {
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Adding different background colors to each box */
+    .plan {
+      border-left: 20px solid rgb(255, 200, 0);
+      border-right: 20px solid rgb(255, 190, 0);
+      background-color: #ffffff;
+      padding: 50px;
+      text-align: center;
+    }
+
+    /* Additional styling to differentiate each plan */
+    .plan:nth-child(odd) {
+      background-color: #ffffff;
+      padding: 50px;
+    }
+
+    /* Adjustments for the first and last plan */
+    .plan:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-left: none;
+    }
+
+    .plan:last-child {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-right: none;
+    }
+
+    /* Style for the blue-colored paragraphs */
+    .blue-text {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td class="plan">
+        <!-- Plan 1 content -->
+        <h2>Private Limited Company</h2>
+        <p>Starting</p>
+        <h2>₹999</h2>
+        <p class="blue-text">+ Statutory Fees</p>
+        <p>The default option for start-ups and growing businesses as only private limited companies can raise venture capital. This type of company offers limited liability for its shareholders with certain restrictions placed on the ownership. Private limited company registration, directors may be different from shareholders.</p>
+        <a href="#">Know More</a>
+      </td>
+      <td class="plan">
+        <!-- Plan 2 content -->
+        <h2>Limited Liability Partnership</h2>
+        <p>Starting </p>
+        <h2>₹999</h2>
+        <p class="blue-text">+ Statutory Fees</p>
+        <p>LLP was introduced to provide a form of business that is easy to maintain and to help owners by providing them with limited liability. Limited Liability Partnership Registration combines the benefits of a partnership with that of a limited liability company.</p>
+        <a href="#">Know More</a>
+      </td>
+      <td class="plan">
+        <!-- Plan 3 content -->
+        <h2>One Person Company</h2>
+        <p>Starting</p>
+        <h2>₹5998</h2>
+        <p class="blue-text"> *All Inclusive</p>
+        <p>The best structure for solo entrepreneurs looking beyond the opportunities a sole proprietorship affords. Here, a single promoter gains full authority over the company, restricting his/her liability towards their contributions to the enterprise. The said person will be the sole shareholder and director</p>
+        <a href="#">Know More</a>
+      </td>
+      <td class="plan">
+        <!-- Plan 4 content -->
+        <h2>Partnership Firm</h2>
+        <p>Starting + </p>
+        <h2>₹999</h2>
+        <p class="blue-text">+ Statutory Fees</p>
+        <p>A business structure in which two or more individuals manage a business per the terms in Partnership Deed. It's best suitable for home businesses that are unlikely to take any debt due to low cost, ease of setting up and minimal compliance requirements.</p>
+        <a href="#">Know More</a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
